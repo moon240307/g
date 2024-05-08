@@ -1,0 +1,363 @@
+body {
+  width: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ffdffd;
+  font-family:"Arial","微軟正黑體",Sans-Serif, "新細明體";
+
+  
+}
+.main{
+	margin: auto;
+	text-align: center;
+}
+.pc{
+	width: 26%;
+	max-width:800px; 
+}
+.mobile {
+  display: none;
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #6f2846;
+}
+
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: 0 0 0 3px #ed86a1;
+}
+.swiper-3d .swiper-slide-shadow {
+  background: rgba(0, 0, 0, .15)
+}
+
+.swiper-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3))
+}
+
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3))
+}
+
+.swiper-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3))
+}
+
+.swiper-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .3))
+}
+
+a {
+  display: block;
+}
+
+img {
+  width: 100%;
+}
+
+.floatBtn,
+.content {
+  width: 100%;
+}
+
+.goTop {
+  position: fixed;
+  right: 10px;
+  bottom: 85px;
+  z-index: 200;
+  cursor: pointer;
+}
+
+
+.btn_right {
+  width: 9%;
+  position: fixed;
+  right: 0;
+  top: 170px;
+  z-index: 300;
+
+}
+.btn_right_s{
+  display: none;
+}
+
+.slogan {  
+  width: 35%;
+  margin: -7.5% auto -6%;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  z-index: 200;  
+  transition-duration:0.3S;
+}
+.slogan_top{
+  width: 25%;
+}
+
+.btn_download {
+  width: 38%;
+  margin: -30% auto -5%;
+  display: flex;
+}
+.animateImg,
+.animateImgSmall{
+  position: absolute;
+}
+
+.character{
+  width: 65%;
+  margin: 7% auto 6%;
+  text-align: center;
+}
+
+
+.gift{
+  width: 100%;  
+  position: sticky;
+  top: 3%;
+  
+}
+.gift_girl{
+  width: 52%;
+  position: relative;
+  left:6%
+}
+.gift_bag{
+  width: 30%;
+  position: absolute;
+  top: 14%;
+  right: 17%;
+  text-align: center;
+}
+.code{
+  width: 50%;
+  padding: 0 0 0 0;
+  margin: -1% 24% 0 auto;
+  cursor: pointer;
+}
+.introduction{
+  width: 100%;
+  background: url(../images/introduction_bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 0 3%;
+  margin-top: 10%;
+  position: relative;
+  z-index: 100;
+
+  
+}
+
+.swiper{ 
+  margin: 0px auto;
+}
+textarea {
+  resize: none;
+}
+
+
+
+footer {
+  width: 100%;
+  padding: 1.5% 0;
+  text-align: center;
+  background:#755aa9;
+  position: absolute;
+
+}
+
+footer ul {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  padding: 25px 0 25px;
+  font-size: 20px;
+}
+
+footer li {
+  width: 100%;  
+  text-align: center;
+}
+
+footer a {    
+  color:#fff1f6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color:#fff1f6;
+}
+
+.copyright {
+  width: 100%;
+  padding: 10px 0;
+  color: #d7b8d1;
+  font-size: 1rem;
+}
+
+@media (max-width: 1399.98px) {  
+  .gift{        
+    top: 10%;    
+  }
+}
+@media (max-width: 991.98px) { 
+  .slogan{
+    width: 50%;  
+  }
+  .slogan_top{
+    width: 30%;  
+  }
+
+  .btn_right {
+    display: none;
+  }
+  .btn_right_s{
+    display: block;
+    position: fixed;
+    top: 112px;
+    right: 10px;
+    z-index: 300;
+  }
+	.character {
+    width: 65%;
+    margin: 4% auto 6%;
+    text-align: center;
+} 
+  footer ul {
+    width: 90%;
+    text-align: left;
+    font-size: 18px;
+  }
+.copyright {
+  width: 100%;
+  padding: 10px 0;
+  color: #d7b8d1;
+  font-size: 0.8rem;
+}
+	.introduction {
+    width: 100%;
+    background: url(../images/introduction_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0 3%;
+    margin-top: 10%;
+    position: relative;
+    z-index: 100;
+    background-position: center;
+ }
+
+}
+@media (max-width: 767.98px) {
+  .pc {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+  .goTop{
+    width: 50px;
+  }
+  .slogan {     
+    width: 90%; 
+    margin: -45% auto 12%;
+  }
+  
+  .slogan_top{
+    width: 50%;  
+  }
+  .btn_download{
+    width: 70%;
+  }
+
+
+  .character {
+    width: 65%;
+    margin: 30% auto 6%;
+    text-align: center;
+} 
+ 
+  .gift_girl{
+    width: 100%;    
+    left: 0;
+  }
+  .gift_bag{
+    width: 70%;
+    right: 15%;
+    top: 50%;
+        
+  }
+
+  .introduction{
+    margin-top: 30%;
+    
+  }
+
+  
+
+  footer ul {
+    width: 90%;
+    text-align: left;
+    font-size: 14px;
+  }
+
+	}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  	width: 100%;
+    /* height: 100%; */
+    max-height: 800px;
+    position: absolute;
+    /* background-color: rgb(0, 0, 0); */
+    background-image: url(style.css);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
